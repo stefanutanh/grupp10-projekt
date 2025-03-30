@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.21.2",
+    "mariadb": "^3.4.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.6",
+    "validate.js": "^0.13.1"
+  }
+}
